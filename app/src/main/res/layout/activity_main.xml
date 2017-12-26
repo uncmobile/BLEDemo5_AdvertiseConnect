@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.nirjon.bledemo5_advertiseconnect.MainActivity">
+
+    <TextView
+        android:text="BLE Advertisement (Server):"
+        android:textStyle="bold"
+        android:textColor="#000081"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Switch
+        android:text="Enable Advertise and Connect: "
+        android:id="@+id/switchADV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:text="Ready to advertise."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:text="BLE Scan and Connect (Client):"
+        android:textStyle="bold"
+        android:textColor="#000081"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Switch
+        android:text="Enable Scan and Connect: "
+        android:id="@+id/switchSC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:text="Ready to scan."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
